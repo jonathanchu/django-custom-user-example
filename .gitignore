@@ -1,0 +1,35 @@
+# Python bytecode
+*.py[co]
+
+# Packages
+*.egg*
+dist
+eggs
+parts
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+# Translations
+*.mo
+
+# SQLite3 database files:
+*.db
+
+# Django
+*.log
+*.pot
+
+# Sphinx docs:
+build
+
+# Mac OS X specific
+.DS_Store
