@@ -23,6 +23,11 @@ sensitive_post_parameters_m = method_decorator(sensitive_post_parameters())
 
 
 class CustomUserAdmin(admin.ModelAdmin):
+    """
+    The default UserAdmin class, but with changes for our CustomUser
+    where `first_name` and `last_name` are replaced by `full_name` and
+    `short_name`
+    """
     add_form_template = 'admin/auth/user/add_form.html'
     change_user_password_template = None
     fieldsets = (
