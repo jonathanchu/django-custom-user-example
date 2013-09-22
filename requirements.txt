@@ -1,2 +1,1 @@
-# Django 1.5 rc
-http://www.djangoproject.com/m/releases/1.5/Django-1.5c1.tar.gz#egg=django
+Django==1.5.4
