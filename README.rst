@@ -35,7 +35,7 @@ Screenshots
 -----------
 
 .. image:: http://i.imgur.com/As2xDEg.png
-.. image:: http://i.imgur.com/FSLwNnC.png
+.. image:: http://i.imgur.com/uaG4qaH.png
 
 Comments/Feedback
 -----------------
