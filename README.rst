@@ -34,7 +34,8 @@ Finally, open up http://127.0.0.1:8000/admin in your browser and login with the 
 Screenshots
 -----------
 
-.. image::
+.. image:: http://i.imgur.com/As2xDEg.png
+.. image:: http://i.imgur.com/FSLwNnC.png
 
 Comments/Feedback
 -----------------
