@@ -1,7 +1,6 @@
 from django import forms
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
 from django.utils.translation import ugettext, ugettext_lazy as _
-from django.contrib.auth.hashers import MAXIMUM_PASSWORD_LENGTH
 
 from .models import CustomUser
 
@@ -23,10 +22,9 @@ class CustomUserCreationForm(forms.ModelForm):
             'invalid': _("This value may contain only letters, numbers and "
                          "@/./+/-/_ characters.")})
     password1 = forms.CharField(label=_("Password"),
-        widget=forms.PasswordInput, max_length=MAXIMUM_PASSWORD_LENGTH)
+        widget=forms.PasswordInput)
     password2 = forms.CharField(label=_("Password confirmation"),
         widget=forms.PasswordInput,
-        max_length=MAXIMUM_PASSWORD_LENGTH,
         help_text=_("Enter the same password as above, for verification."))
 
     class Meta:
