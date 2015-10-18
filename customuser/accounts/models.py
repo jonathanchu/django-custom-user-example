@@ -8,6 +8,7 @@ from django.core import validators
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 from django.utils import timezone
+from django.utils.http import urlquote
 
 
 class CustomUser(AbstractBaseUser, PermissionsMixin):
