@@ -18,7 +18,7 @@ Create a virtual environment for this project and install Django (1.5.4 recommen
     $ mkvirtualenv customuser
     (customuser) $ pip install django
 
-Run `syncdb` and create a superuser when prompted:
+Run `syncdb` or `migrate` (depending on your Django version) and create a superuser when prompted:
 ::
 
     (customuser) $ python manage.py syncdb
@@ -28,6 +28,8 @@ Run `runserver`:
 ::
 
     (customuser) $ python manage.py runserver
+
+
 
 Finally, open up http://127.0.0.1:8000/admin in your browser and login with the superuser just created.  You should see your custom user under "Accounts".
 
