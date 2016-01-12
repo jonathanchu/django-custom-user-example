@@ -12,7 +12,7 @@ Clone this repository:
     $ git clone https://github.com/jonathanchu/django-custom-user-example.git
     $ cd django-custom-user-example
 
-Create a virtual environment for this project and install Django (1.5.4 recommended):
+Create a virtual environment for this project and install Django (1.5.4+ recommended):
 ::
 
     $ mkvirtualenv customuser
