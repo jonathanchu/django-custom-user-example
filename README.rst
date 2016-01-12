@@ -19,9 +19,18 @@ Create a virtual environment for this project and install Django (1.5.4+ recomme
     (customuser) $ pip install django
 
 Run `syncdb` or `migrate` (depending on your Django version) and create a superuser when prompted:
+(Django < 1.9)
 ::
 
     (customuser) $ python manage.py syncdb
+    ...
+
+(Django 1.9+)
+::
+
+    (customuser) $ python manage.py migrate
+    ...
+    (customuser) $ python manage.py createsuperuser
     ...
 
 Run `runserver`:
