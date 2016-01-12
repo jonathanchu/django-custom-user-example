@@ -23,6 +23,7 @@ pip-log.txt
 
 # SQLite3 database files:
 *.db
+*.sqlite3
 
 # Django
 *.log
