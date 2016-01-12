@@ -38,3 +38,6 @@ build
 # VirtualEnv
 venv/
 .direnv
+
+# Cache
+.cache
