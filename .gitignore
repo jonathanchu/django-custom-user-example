@@ -33,3 +33,6 @@ build
 
 # Mac OS X specific
 .DS_Store
+
+# VirtualEnv
+venv/
