@@ -48,6 +48,16 @@ Screenshots
 .. image:: http://i.imgur.com/As2xDEg.png
 .. image:: http://i.imgur.com/uaG4qaH.png
 
+
+Running Tests Locally
+-----------
+ - Tests have been added to this sample project. You can install these tests from 
+ `dev-requirements`. 
+ - `Py.Test` has been integrated with the test suite. In order to run these tests just run the following command 
+ `py.test` 
+
+ - In case you want to see your test coverage, just run `py.test --cov` . 
+
 Comments/Feedback
 -----------------
 

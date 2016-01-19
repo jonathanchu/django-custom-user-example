@@ -1,0 +1,3 @@
+[run]
+source = customuser/
+omit = '*tests*,*commands*,*migrations*,*admin*,*wsgi*'

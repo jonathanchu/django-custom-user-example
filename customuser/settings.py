@@ -121,6 +121,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'customuser.accounts',
+    'django_extensions',  # Don't use this in production environment
 )
 
 # A sample logging configuration. The only tangible logging
